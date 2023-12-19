@@ -1,53 +1,79 @@
-/* Estilos para el encabezado */
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper-1 {
+  display: flex;
+  justify-content: center;
+  background-color: #EBEAF0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+ }
+ /* Estilos para el encabezado */
 h1 {
   color: black;
   padding: 20px;
   text-align: center;
 }
-body {
- 
-}
-.contenido {
+ .contenido {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding-top: 10px;  
+  padding-bottom: 10px;
+  width: 500px;
+  }
+ .boton-primario {
+  display: block;
+  color: #ffff;
+  background-color: black;
+  padding: 5px;
+  }
+.wrapper-2 {
+  background-color: #ffff;
   display: flex;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  padding-bottom: 10px;
+  }
 
-.boton.primario {
-  display: block;
-  width: 50px;
-  font-weight: 700;
-  border-radius: 10px;
-  margin: 150px 130px;
-  text-decoration: none;
-  color: white
+.wrapper-2-imagen>img{
+  width: 500px;
   
 }
-
-a.hover {
-  background-color: transparent;
-  border: 2px solid green color(srgb red green blue)
-}
-
-.content-imagen {
+.wrapper-3 {
+  background-color: #F4CB62;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 20px;  
+  padding-bottom: 10px;
+  padding-left: 500px;
+  padding-right: 500px;
 }
-.wrapper-1.img{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  float: right;
-  background: rgb(226, 226, 47)
+.wrapper-3-imagen>img{
+  width: 300px;
 }
-.wrapper-2.img{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+.wrapper-4 {
+  background-color:#C8DB8C;
   display: flex;
-  justify-content: center;
-  align-items: 100VH;
-  background: rgb(145, 145, 46)
+  justify-content: space-around;
+  padding-top: 20px;  
+  padding-bottom: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
+.wrapper-4-imagen>img{
+  width: 300px;
+}
+.wrapper-5 {
+  background-color:#B87BA4;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;  
+  padding-bottom: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.wrapper-5-imagen>img{
+  width: 300px;
+}
+
