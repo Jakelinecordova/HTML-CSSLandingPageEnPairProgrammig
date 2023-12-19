@@ -100,8 +100,11 @@ h1 {
   }
   input{
   background-color: #EBEAF0;
-  
-  } 
+  border: white;
+    } 
+  .mensaje, textarea{
+    background-color: #EBEAF0;
+  }
 .enviar {
   display: block;
   color: #ffff;
