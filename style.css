@@ -1,79 +1,104 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
+
 .wrapper-1 {
   display: flex;
   justify-content: center;
   background-color: #EBEAF0;
   padding-top: 30px;
   padding-bottom: 10px;
- }
- /* Estilos para el encabezado */
+}
+
+/* Estilos para el encabezado */
 h1 {
   color: black;
   padding: 20px;
   text-align: center;
 }
- .contenido {
+
+.contenido {
   display: flex;
   justify-content: space-around;
   border: 1px solid black;
-  padding-top: 10px;  
+  padding-top: 10px;
   padding-bottom: 10px;
   width: 500px;
-  }
- .boton-primario {
+}
+
+.boton-primario {
   display: block;
   color: #ffff;
   background-color: black;
   padding: 5px;
-  }
+}
+
 .wrapper-2 {
   background-color: #ffff;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
-  }
-
-.wrapper-2-imagen>img{
-  width: 500px;
-  
 }
+
+.wrapper-2-imagen>img {
+  width: 500px;
+
+}
+
 .wrapper-3 {
   background-color: #F4CB62;
   display: flex;
   justify-content: space-around;
-  padding-top: 20px;  
+  padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 500px;
   padding-right: 500px;
 }
-.wrapper-3-imagen>img{
-  width: 300px;
-}
-.wrapper-4 {
-  background-color:#C8DB8C;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;  
-  padding-bottom: 10px;
-  padding-left: 400px;
-  padding-right: 400px;
-}
-.wrapper-4-imagen>img{
-  width: 300px;
-}
-.wrapper-5 {
-  background-color:#B87BA4;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;  
-  padding-bottom: 10px;
-  padding-left: 400px;
-  padding-right: 400px;
-}
-.wrapper-5-imagen>img{
+
+.wrapper-3-imagen>img {
   width: 300px;
 }
 
+.wrapper-4 {
+  background-color: #C8DB8C;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.wrapper-4-imagen>img {
+  width: 300px;
+}
+
+.wrapper-5 {
+  background-color: #B87BA4;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.wrapper-5-imagen>img {
+  width: 300px;
+}
+.wrapper-6 {
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.enviar {
+  display: block;
+  color: #ffff;
+  background-color: black;
+}
