@@ -101,4 +101,6 @@ h1 {
   display: block;
   color: #ffff;
   background-color: black;
+  width: 240px;
+  padding: 5px;
 }
